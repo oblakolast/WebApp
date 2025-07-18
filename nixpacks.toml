@@ -1,0 +1,13 @@
+[phases.setup]
+commands = []
+
+[phases.install]
+commands = [
+  "pip install -r requirements.txt"
+]
+
+[phases.build]
+commands = []
+
+[phases.start]
+commands = ["python server.py"]
